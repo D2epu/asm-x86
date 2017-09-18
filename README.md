@@ -1,2 +1,7 @@
 # asm-x86
-Assembly (NASM) language program, written by DipuKumar
+assemble with nasm:
+    nasm -f win32 filename.asm
+
+link with golink:
+    golink /console filename.obj msvcrt.dll
+    
